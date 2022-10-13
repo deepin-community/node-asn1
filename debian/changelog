@@ -1,0 +1,30 @@
+node-asn1 (0.2.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Pirate Praveen ]
+  * Switch to github tarballs
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Strip unusual field spacing from debian/control.
+  * Set upstream metadata fields: Bug-Submit.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 19 Feb 2020 15:42:42 +0100
+
+node-asn1 (0.2.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #850135)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 May 2017 08:11:35 +0530

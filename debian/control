@@ -1,0 +1,28 @@
+Source: node-asn1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+ , node-tap
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-asn1
+Vcs-Git: https://salsa.debian.org/js-team/node-asn1.git
+Homepage: https://github.com/mcavage/node-asn1
+Rules-Requires-Root: no
+
+Package: node-asn1
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Description: ASN.1 encoder and decoder (BER)
+ Asn1.js is a pure javascript ASN.1 encoder and decoder. Currently BER encoding
+ is supported.
+ .
+ Abstract Syntax Notation One (ASN.1) is an interface description
+ language for defining data structures that can be serialized and
+ deserialized in a standard, cross-platform way.
+ .
+ Node.js is an event-based server-side JavaScript engine.
